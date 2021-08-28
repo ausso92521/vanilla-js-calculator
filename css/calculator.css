@@ -1,0 +1,77 @@
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(126, 0, 0, 0.35), rgba(134, 92, 0, 0.5));
+}
+
+h1 {
+    width:600px;
+    margin: 2% auto;
+    font-style: italic;
+    font-size: 3.2rem;
+}
+
+#calc-container {
+    height: 80%;
+    width: 400px;;
+    margin: auto;
+    background: rgba(178, 255, 238, 0.6);
+    border-radius:1%
+}
+
+#buttons-container {
+    height: 75%;
+    display: grid;
+    gap: 1%;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    margin: auto;
+    background-color: rgb(0,0,0,.1);
+}
+
+#buttons-container button {
+    font-size: 3.2rem;
+    border-radius: 5%;
+    background: linear-gradient(rgba(2, 120, 0, .5), rgba(255, 255, 255, .95));
+    border-style: none;
+}
+
+#buttons-container button:hover {
+    background: linear-gradient(rgba(2, 120, 0, .5), rgba(225, 225, 225, .95));
+}
+
+#buttons-container button:active {
+    font-size: 1.825rem;
+    background: linear-gradient(rgba(2, 120, 0, .5), rgba(255, 255, 255, 0.5));
+}
+
+#output {
+    height: 25%;
+    margin: auto;
+    text-align: right;
+    background: linear-gradient(to grid-template-columns, rgba(255, 255, 255, .7), rgba(0, 0, 0, .2));
+}
+
+#history {
+    font-size: 3.2rem;
+    font-style: italic;
+    color: #888888;
+    height:50%;
+}
+
+#current {
+    font-size: 4.8rem;
+    height:50%;
+}
+
+.span-two {
+    grid-column: span 2;
+}
