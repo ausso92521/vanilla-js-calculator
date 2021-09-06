@@ -1,12 +1,8 @@
-body {
-    background-image: linear-gradient(to bottom, rgba(207, 255, 161, 0.35), rgba(207, 103, 255, 0.5));
-}
+@import 'styles.css';
 
 h1 {
     width:600px;
     margin: 2% auto;
-    font-style: italic;
-    font-size: 3.2rem;
 }
 
 #calc-container {
