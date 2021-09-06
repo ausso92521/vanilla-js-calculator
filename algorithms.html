@@ -7,9 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href='css/algorithms.css' rel='stylesheet'>
+    <script type="text/javascript" src="js/fibonacci.js" defer></script>
     <title>Algorithms</title>
 </head>
 <body>
-    
+    <div id="fibonacci_calculator">
+        <h1>Enter a number to get that Fibonacci sequence value.</h1>
+        <h2 id="answer">Answer</h2>
+
+        <form id="fibonacci_form" onsubmit="return false;">
+            <input id="fib_number" type="number"/>
+            <button id="calculate_fibonacci" type ="button">Calculate</button>
+        </form>
+    </div>
 </body>
 </html>
