@@ -3,7 +3,7 @@ calculate = () => {
     let n = input.value
     console.time('getFib')
     let result = getNthFibonacci(n)
-    answer.innerHTML = `Fibonacci value ${n}: ${result}`
+    answer.innerHTML = `Fibonacci value ${n}: <p style="font-size: 3rem;">${result}</p>`
     console.timeEnd('getFib')
 }
 
